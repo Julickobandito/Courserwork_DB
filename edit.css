@@ -1,0 +1,47 @@
+body{
+    background:  rgb(252, 189, 150);
+    text-align: center;
+}
+form input{
+    background: none;
+    border: 2px solid rgb(250, 219, 199);
+    color: white;
+    margin-bottom: 3%;
+}
+select {
+    background: none;
+    border: 2px solid rgb(250, 219, 199);
+    color: white;
+    margin-bottom: 3%;
+}
+option{
+    background: none;
+    color: black;
+}
+#btn, .btn{
+    margin-top: 3%;
+    width: 400px;
+    height: 40px;
+    border-radius: 2px;
+    background: #190748;
+    color: white;
+    border: none;
+    font-weight: 700;
+}
+#btn:hover, .btn:hover{
+    transition: 1s;
+    background: none;
+    border: 2px solid #190748;
+    color: #190748 ;
+
+}
+
+table{
+    margin: 0 auto;
+    width: 80%;
+    padding: 5%;
+    background: rgba(229, 134, 79, 0.48) ;
+    border: 1px solid rgba(229, 134, 79, 0.48);
+    border-radius: 2px;
+    margin-top: 4%;
+}

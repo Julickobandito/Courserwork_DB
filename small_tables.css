@@ -1,0 +1,54 @@
+.wrapper{
+    position: relative;
+}
+
+#add{
+    position: absolute;
+    top: 60px;
+    left: 220px;
+}
+h2{
+    margin: 0;
+}
+table{
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 4%;
+}
+table a{
+    margin: 0 auto;
+}
+body{
+    background: rgb(252, 189, 150);
+}
+
+.container{
+    width: 90%;
+    margin: 0 auto;
+}
+tr th{
+    color: white;
+    background:  #260e72;
+    padding-left: 1%;
+    text-align: left;
+}
+tr td{
+    padding-left: 1%;
+    color: #260e72;
+}
+tr:hover{
+    transition: 0.3s;
+    background: rgb(250, 219, 199);
+}
+tbody{
+    background: rgba(229, 134, 79, 0.48);
+}
+.flex{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 2%;
+    margin-right: 2%;
+}
+img{
+    margin: 0;
+}
